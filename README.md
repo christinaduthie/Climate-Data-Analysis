@@ -118,8 +118,6 @@ humidity=100∗exp(17.625∗TD)/243.04+TD / (exp(17.625∗T)/243.04+T)
 
 - This code defines a new function calculate_humidity that takes in temperature and dew point values and applies the provided formula to calculate the corresponding humidity value. The function uses the numpy exp function to compute the exponential values in the formula.
 
-</br>
-
 ## <strong>Visualization </strong>
 
 Matplotlib, a powerful data visualization library is used to create a wide range of charts and plots to better understand the data.
